@@ -13,6 +13,11 @@
   "license": "ISC",
   "repository": {
     "url": "https://github.com/AlbertoCenteno/node-ts"
+  },
+  "dependencies": {
+    "faker": "^6.6.6"
+  },
+  "devDependencies": {
+    "@types/faker": "^6.6.9"
   }
-
 }

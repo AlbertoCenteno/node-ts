@@ -1,3 +1,6 @@
+import faker from 'faker';
+
+
 // let myVar: string = 'ciao';
 
 // const myConstant = 'ciao';
@@ -19,6 +22,8 @@
 
 // let myTuple: [string, number] = ['ciao', 10];
 
+// cicli
+
 // let x = 1;
 // while (x< 10){
 
@@ -32,6 +37,7 @@
 //     x = x + 1;
 // }
 
+// funzioni
 
 // function hello(name: string): string{
 //     console.log('ciao mondo');
@@ -44,3 +50,4 @@
 
 // console.log(retHello1);
 
+console.log(faker.name.firstName());
