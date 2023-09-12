@@ -10,5 +10,9 @@
     "lacerba"
   ],
   "author": "alberto",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/AlbertoCenteno/node-ts"
+  }
+
 }
