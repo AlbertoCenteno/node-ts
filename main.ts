@@ -18,3 +18,29 @@
 
 
 // let myTuple: [string, number] = ['ciao', 10];
+
+// let x = 1;
+// while (x< 10){
+
+//     if(x !== 5){
+//         console.log(`\t${x}^2 = ${x * x}`);
+//     }
+//     else{
+//         console.log(`\tx vale 5!`);
+//     }
+
+//     x = x + 1;
+// }
+
+
+// function hello(name: string): string{
+//     console.log('ciao mondo');
+//     console.log(`ciao da ${name}`);
+//     return 'questa è la stringa di ritorno';
+// }
+
+// const retHello1 = hello('alberto');
+// const retHello2 = hello('rossella');
+
+// console.log(retHello1);
+
