@@ -1,4 +1,4 @@
-import faker from 'faker';
+// import faker from 'faker';
 
 
 // let myVar: string = 'ciao';
@@ -50,4 +50,13 @@ import faker from 'faker';
 
 // console.log(retHello1);
 
-console.log(faker.name.firstName());
+// console.log(faker.name.firstName());
+
+import fs from 'fs';
+
+const readmeFile = fs.readFileSync('./README.md');
+const readme = readmeFile.toString();
+
+console.log(readme);
+
+fs.writeFileSync('./README.copy.md', 'Copia from README.md\n\n' + readme);
